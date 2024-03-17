@@ -1,0 +1,289 @@
+repo_name: zzhilin/arxiv-view-as-html
+report_id: 10a6c50e6fdc9dcf8e82fe45735472d0
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T20:57:39+00:00'
+requested_by: mnazzaro
+provider: github
+branch: gcp-cd-arxiv-production
+detected_tools_count: 22
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/arXiv_latexml.sql
+  detection_source: arXiv_latexml.sql
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-05-23 16:31:01.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/Dockerfile
+  detection_source: ConversionContainer/Dockerfile
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-01-10 18:01:26.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/FirePublishEvents/requirements.txt
+  detection_source: FirePublishEvents/requirements.txt
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-09-15 18:36:29.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 2.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: FeedbackFunction/requirements.txt
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-07-07 17:00:44.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/FirePublishEvents/requirements.txt
+  detection_source: FirePublishEvents/requirements.txt
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-09-15 18:36:29.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/Dockerfile
+  detection_source: ConversionContainer/Dockerfile
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-01-10 18:01:26.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/Dockerfile
+  detection_source: ConversionContainer/Dockerfile
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-09-29 21:30:49.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: 3.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-08-15 20:56:28.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/project/filelock
+  version: 3.12.2
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: google-cloud-logging
+  description: Stackdriver Logging API client library
+  package_url: https://pypi.org/project/google-cloud-logging
+  version: 3.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20551/default_2bd6b1bbea25e0422bf129a726728cd8e73433f2.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: google-cloud-pubsub
+  description: Google Cloud Pub/Sub API client library
+  package_url: https://pypi.org/project/google-cloud-pubsub
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20317/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/FirePublishEvents/requirements.txt
+  detection_source: FirePublishEvents/requirements.txt
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-09-15 18:36:29.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: pg8000
+  description: PostgreSQL interface library
+  package_url: https://pypi.org/project/pg8000
+  version: 1.29.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2023.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/zzhilin/arxiv-view-as-html/blob/gcp-cd-arxiv-production/ConversionContainer/pyproject.toml
+  detection_source: ConversionContainer/pyproject.toml
+  last_updated_by: Mark Nazzaro
+  last_updated_on: 2023-06-20 19:20:17.000000000 Z
